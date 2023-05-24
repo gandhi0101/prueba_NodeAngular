@@ -27,7 +27,7 @@ app.get('/api/personas', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send(filePath);
+  res.send('<h1>HOla chiqui BBYs</h1>');
 })
 
 // Iniciar el servidor
