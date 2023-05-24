@@ -1,7 +1,7 @@
 // Importar las dependencias necesarias
-import {PORT} from './controllers/config.js'
+//import {PORT} from '/src/controllers/config.js'
 const express = require('express');
-
+const PORT  = process.env.PORT || 3000;
 const cors = require('cors');
 const path = require('path');
 
