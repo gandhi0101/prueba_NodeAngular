@@ -1,4 +1,5 @@
 // Importar las dependencias necesarias
+import {PORT} from './controllers/config.js'
 const express = require('express');
 
 const cors = require('cors');
@@ -30,7 +31,7 @@ app.get('/', (req, res) => {
 })
 
 // Iniciar el servidor
-const port = 3000;
-app.listen(port, () => {
-  console.log(`Servidor iniciado en el puerto ${port}`);
+
+app.listen(PORT, () => {
+  console.log(`Servidor iniciado en el puerto ${PORT}`);
 });
